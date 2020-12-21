@@ -1,0 +1,62 @@
+.aside .logo a::before{
+    border-top:4px solid #ec1839;
+    border-left:4px solid #ec1839;
+
+    
+    }
+
+.aside .logo a::after{
+        border-bottom:4px solid #ec1839;
+        border-right:4px solid #ec1839;
+    }
+
+.aside .logo-cla a::before{
+    border-top:4px solid orange;
+    border-left:4px solid orange;
+}
+
+.aside .logo-cla a::after{
+    border-bottom:4px solid orange;
+    border-right:4px solid orange;
+}
+
+.about .about-content .about-text h3 span,
+.aside .navs li a:hover,
+.aside .navs li a.active{
+    color:#ec1839;
+}
+.btns,#navs-btn,
+.section-title h2::before,
+.section-title h2::after,
+.aside .nav-togler span,
+.aside .nav-togler span::before,
+.aside .nav-togler span::after,
+.home .intro .social-links a
+{
+    background-color:#ec1839;
+}
+#navs-btn{
+    color:white;
+}
+
+#navs-btn:hover{
+  border:2px solid #ec1839;
+    
+}
+
+.about-section-title h2::before,
+.about-section-title h2::after,
+.down-btn-cla
+{
+    background-color:orange;
+}
+
+.send-btn-cla{
+    background-color:orange;
+}
+
+.ico-call-cla .fa{
+    font-size:40px;
+    color:orange;
+}
+
